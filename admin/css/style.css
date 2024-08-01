@@ -1,0 +1,271 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #353535;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Top Section */
+.top {
+    width: 100%;
+    height: 100px;
+    background: #353535;
+}
+
+.top h2 {
+    padding: 40px;
+    color: #fff;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+
+/* Left Sidebar */
+.lft {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: #353535;
+}
+
+.lft h2 {
+    color: #626262;
+}
+
+.lft img {
+    width: 100px;
+}
+
+.lft ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lft ul li {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.lft ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 15px;
+    font-weight: bold;
+    border-radius: 14px;
+    transition: 0.7s;
+}
+
+.lft ul li a:hover {
+    background: #fff;
+    color: #e1700f;
+}
+
+span {
+    color: #e1700f;
+}
+
+/* Right Sidebar */
+.rgt {
+    width: 80%;
+    height: 100%;
+    float: right;
+    background: #585858;
+    color: #000;
+}
+
+.rgt h2 {
+    padding: 6%;
+}
+
+/* Sections */
+.up {
+    width: 100%;
+    height: auto;
+    color: #1c1212;
+    background: #413f3f;
+}
+
+.up h3 {
+    margin-left: 10px;
+}
+
+.add {
+    width: 100%;
+    height: auto;
+    background: #413f3f;
+    line-height: center;
+}
+
+.add h3 {
+    margin-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.add a {
+    float: right;
+    line-height: center;
+}
+
+/* Buttons */
+.btn, .canc, .book {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding: 0.8rem 1.8rem;
+}
+
+.btn {
+    color: #525959;
+    background: #fff;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    border-color: #fff;
+}
+
+.canc {
+    color: #fff;
+    background: red;
+    padding: 0.3rem 1.1rem;
+}
+
+.canc:hover {
+    opacity: 0.7;
+    border-color: #fff;
+}
+
+.book {
+    color: #fff;
+    background: #e1700f;
+    width: auto;
+}
+
+.book:hover {
+    opacity: 0.7;
+    border-color: #fff;
+}
+
+/* Box for Cards (Dashboard) */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Gap between cards */
+    justify-content: center; /* Center the cards */
+    margin: 20px auto; /* Center the container and add margin */
+}
+
+/* Card Styles */
+.card {
+    width: 275px; /* Adjusted width */
+    height: 175px; /* Adjusted height */
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #e1700f;
+    padding: 1.3rem 2rem;
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h2, .card h3 {
+    color: #000;
+}
+
+/* Form Styles */
+.form {
+    width: 400px;
+    border: 2px solid #000;
+    background: #1eec20;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inp {
+    font-size: 25px;
+    color: #000;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.t1, .t2 {
+    color: #000;
+    background: #fff;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.t1 {
+    font-size: 25px;
+}
+
+.t2 {
+    font-size: 20px;
+    background: #eee;
+}
+
+.a1, .a2 {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.a1 {
+    background: blue;
+    padding: 5px;
+}
+
+.a1:hover {
+    opacity: 0.7;
+}
+
+.a2 {
+    background: red;
+    padding: 7px;
+}
+
+.a2:hover {
+    opacity: 0.7;
+}
+
+.res {
+    margin-left: 20px;
+}
+
+.in {
+    font-size: 20px;
+    width: 55%;
+}
+
+h3 img {
+    width: 10px;
+}
